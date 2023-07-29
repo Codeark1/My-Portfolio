@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  .button-scale:hover {
+    transform: scale(1.05);
+  }
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-out {
+    animation: fadeIn 3s ease-in-out;
+  }
+
+  @font-face {
+    font-family: "poppins-800";
+    src: url("./Asset/Fonts/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "poppins-500";
+    src: url("./Asset/Fonts/Poppins-Light.ttf");
+  }
+  @font-face {
+    font-family: "poppins-600";
+    src: url("./Asset/Fonts/Poppins-Medium.ttf");
+  }
+  
+ .bg-image{
+  background-image: url('../src/Asset//3d-render-background-design-network-communications.jpg');
+  background-size: cover;
+  background-position: center;
+
+ }
+ .bg-about{
+  /* background: rgb(200,105,177); */
+  background: linear-gradient(111deg, rgba(200,105,177,1) 7%, rgba(158,75,75,1) 65%);
+ }
+  
+ 
+   
