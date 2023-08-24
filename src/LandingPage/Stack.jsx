@@ -19,7 +19,7 @@ const Stack = () => {
   }, []);
 
   return (
-    <div id="tech-stack" className=" h-[100svh] flex justify-center items-center px-4 md:px-10">
+    <div id="tech-stack" className=" h-[100svh] bg-about flex justify-center items-center px-4 md:px-10">
       <section data-aos="fade-up">
         <div className="leading-10 text-2xl md:text-4xl mt-5">
         <h1 className="text-center font-[poppins-800]">My Tech Stack</h1>

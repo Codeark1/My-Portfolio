@@ -3,6 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'; // Add this import for useEffect
 import pdf from "../Asset/resume/resume.pdf"
+import "../index.css";
+
 const About = () => {
   useEffect(() => {
     AOS.init({
@@ -13,7 +15,8 @@ const About = () => {
   }, []); // Add an empty dependency array to ensure AOS.init runs only once
 
   return (
-    <div className='min-h-screen px-4 text-white md:px-10' id='about'>
+    <div className='min-h-screen px-4 text-black bg-about md:px-10' id='about'>
+      
       <div className='pl-5 pr-5 gap-5 flex flex-col'>
         <h1
           className=' text-black text-center pt-8 font-[poppins-800] font-semibold text-xl md:text-3xl'

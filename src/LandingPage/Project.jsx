@@ -127,16 +127,16 @@ const Project = () => {
   ];
 
   return (
-    <div className="min-h-screen" id="project">
-      <div className="text-center leading-10 gap-5 text-2xl md:text-4xl mt-16">
-        <h1 className="font-[poppins-800] text-black ">PROJECTS</h1>
+    <div className="min-h-screen bg-about" id="project">
+      <div className="text-center  leading-10 gap-5 text-2xl md:text-4xl mt-16">
+        <h1 className="font-[poppins-800] text-black pt-5">PROJECTS</h1>
         <p className="font-[poppins-600] text-black">Things I have worked on</p>
       </div>
       <section className="grid gap-5 mt-10 pl-5 pr-5 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="p-3 border rounded-xl first-letter:text-center font-[poppins-600] text-white break-normal shadow-sm"
+            className="p-3 border rounded-xl first-letter:text-center font-[poppins-600] text-black break-normal shadow-sm"
           >
             <div className=" ">{project.img}</div>
             <div>TITLE: {project.title}</div>

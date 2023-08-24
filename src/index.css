@@ -52,15 +52,15 @@
   }
   
  .bg-image{
-  background-image: url('../src/Asset//3d-render-background-design-network-communications.jpg');
+  background-image: url('../src/Asset/psychedelic-paper-shapes-with-copy-space.jpg');
   background-size: cover;
   background-position: center;
 
  }
  .bg-about{
-  /* background: rgb(200,105,177); */
-  background: linear-gradient(111deg, rgba(200,105,177,1) 7%, rgba(158,75,75,1) 65%);
+  background: rgb(255,216,0);
+  background: linear-gradient(111deg, rgba(255,216,0,1) 34%, rgba(22,78,148,1) 34%);
  }
-  
+
  
    
