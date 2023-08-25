@@ -52,15 +52,14 @@
   }
   
  .bg-image{
-  background-image: url('../src/Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+  background-image: url('../src/Asset/3d-background-with-white-cubes.jpg');
   background-size: cover;
   background-position: center;
 
  }
- .bg-about{
-  background: rgb(255,216,0);
-  background: linear-gradient(111deg, rgba(255,216,0,1) 34%, rgba(22,78,148,1) 34%);
- }
+body{
+  background-color: rgb(121, 115, 115);
+}
 
  
    

@@ -127,7 +127,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-about" id="project">
+    <div className="min-h-screen bg-image" id="project">
       <div className="text-center  leading-10 gap-5 text-2xl md:text-4xl mt-16">
         <h1 className="font-[poppins-800] text-black pt-5">PROJECTS</h1>
         <p className="font-[poppins-600] text-black">Things I have worked on</p>
@@ -136,7 +136,7 @@ const Project = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="p-3 border rounded-xl first-letter:text-center font-[poppins-600] text-black break-normal shadow-sm"
+            className="p-3 border border-black rounded-xl first-letter:text-center font-[poppins-600] text-black break-normal shadow-sm"
           >
             <div className=" ">{project.img}</div>
             <div>TITLE: {project.title}</div>

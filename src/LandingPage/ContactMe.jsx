@@ -43,11 +43,11 @@ const ContactMe = () => {
   return (
     <div
       id="contact-me"
-      className="  bg-about h-screen mt-10 pl-5 pr-5 md:mt-16 flex items-center justify-center h-full bg-"
+      className=" h-screen mt-10 pl-5 pr-5 md:mt-16 flex items-center justify-center h-full bg-image"
       data-aos="fade"
     >
       <Card
-        className=" bg-slate-400 border:none w-full md:w-1/2 p-5"
+        className=" border:none w-full md:w-1/2 p-5"
         data-aos="fade-up"
         data-aos-delay="100"
       >

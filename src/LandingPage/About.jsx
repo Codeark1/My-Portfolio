@@ -15,7 +15,7 @@ const About = () => {
   }, []); // Add an empty dependency array to ensure AOS.init runs only once
 
   return (
-    <div className='min-h-screen px-4 text-black bg-about md:px-10' id='about'>
+    <div className=' bg-image min-h-screen px-4 text-black  md:px-10' id='about'>
       
       <div className='pl-5 pr-5 gap-5 flex flex-col'>
         <h1
