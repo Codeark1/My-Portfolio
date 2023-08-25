@@ -14,7 +14,7 @@ const NavBar = () => {
           <Link href="#about" title="About" />
           <Link href="#tech-stack" title="Tech stack" />
           <Link href="#project" title="Project" />
-          <Link href="#contactme" title="Contact" />
+          <Link href="#contact-me" title="Contact" />
         </Anchor>
       </Title>
     </div>

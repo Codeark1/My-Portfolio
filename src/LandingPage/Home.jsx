@@ -8,7 +8,7 @@ import pic from "../Asset/693.jpg";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-image" id="home ">
+    <div className="min-h-screen bg-image" id="home">
     <nav className="  flex items-center justify-between h-16 md:h-20 px-4 md:px-10">
       <div className="hidden md:flex">
         <img src={blue} height={80} width={80} alt="" />
@@ -18,7 +18,7 @@ const Home = () => {
       </ul>
     </nav>
     <section className="  grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 md:h-80 px-4 md:px-10 py-8">
-      <div className=" text-black  font-[poppins 800] md:text-3xl lg:text-[50px] flex justify-center items-center font-semibold">
+      <div className=" text-black  font-[poppins 800] md:text-3xl lg: flex justify-center items-center font-semibold">
         <Typewriter
           options={{
             strings: [
