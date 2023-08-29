@@ -52,7 +52,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
             download="Resume.pdf"
-            className=' border-2 border-white p-2 rounded text-black font-bold'
+            className='border-2 border-white p-2 rounded text-black font-bold'
           >
             Resume
           </a>
