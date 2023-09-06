@@ -18,7 +18,7 @@ const Home = () => {
       </ul>
     </nav>
     <section className="  grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 md:h-80 px-4 md:px-10 py-8">
-      <div className=" text-black  font-[poppins 800] md:text-3xl lg: flex justify-center items-center font-semibold">
+      <div className=" text-teal-900 font-[poppins 800] text-sm sm:text-4xl md:text-5xl lg:text-5xl flex justify-center items-center font-semibold">
         <Typewriter
           options={{
             strings: [

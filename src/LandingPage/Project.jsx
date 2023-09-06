@@ -4,7 +4,7 @@ import ip from "../Asset/newip.jpg";
 import food from "../Asset/food.jpg";
 import age from "../Asset/age.png";
 import clock from "../Asset/ClockIn screenshot.png";
-import landing from "../Asset/Screenshot (34).png";
+import landing from "../Asset/landing.png";
 import github from "../Asset/github-1.svg";
 import link from "../Asset/link 1.svg";
 
@@ -108,15 +108,15 @@ const Project = () => {
     },
     {
       img: <img src={landing} alt="" />,
-      title: "A CLONE OF withcompound.com WEBSITE",
-      about: " A landing page built with react js ",
+      title: "An LMS for Kids",
+      about: " kidsHIVE recognize that young minds learn best when they're having fun. Our curriculum is designed with age-appropriate content, interactive activities, and colorful visuals that captivate children's attention and keep them excited about learning. ",
       stack: " REACT JS",
-      link: < a href="https://splendorous-longma-e366a5.netlify.app/"  className="text-blue-500 hover:underline" target="_blank"rel="noreferrer">DEMO</a>,
+      link: < a href="https://kids-app-frontend.vercel.app/"  className="text-blue-500 hover:underline" target="_blank"rel="noreferrer">DEMO</a>,
       gitLink: <img src={github} alt="" />,
       hostLink: <img src={link} alt="" />,
       git: (
         <a
-          href="https://github.com/Codeark1/Age-Calculator.git" target="_blank" rel="noreferrer"
+          href="https://github.com/Codeark1/Kids-Hive.git" target="_blank" rel="noreferrer"
           className="text-blue-500 hover:underline"
         >
           {" "}
