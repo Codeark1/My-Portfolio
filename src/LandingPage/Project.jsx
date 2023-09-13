@@ -7,6 +7,7 @@ import clock from "../Asset/ClockIn screenshot.png";
 import landing from "../Asset/landing.png";
 import github from "../Asset/github-1.svg";
 import link from "../Asset/link 1.svg";
+import kids from "../Asset/kids.png"
 
 const Project = () => {
   const projects = [
@@ -107,7 +108,7 @@ const Project = () => {
       git:<a href="https://github.com/Codeark1/student-time-tracker.git" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">GitHub Repository</a>,
     },
     {
-      img: <img src={landing} alt="" />,
+      img: <img src={kids} alt="" />,
       title: "An LMS for Kids",
       about: " kidsHIVE recognize that young minds learn best when they're having fun. Our curriculum is designed with age-appropriate content, interactive activities, and colorful visuals that captivate children's attention and keep them excited about learning. ",
       stack: " REACT JS",
